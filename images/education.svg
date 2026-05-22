@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-label="Образование">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eff6ff"/>
+      <stop offset="1" stop-color="#fef3c7"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0b1f4d" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="760" fill="url(#g)"/>
+  <circle cx="1050" cy="110" r="170" fill="#ffffff" opacity="0.16"/>
+  <circle cx="120" cy="640" r="210" fill="#ffffff" opacity="0.12"/>
+  <path d="M0 600 C 260 520, 420 700, 690 600 S 1010 520, 1200 620 L1200 760 L0 760 Z" fill="#ffffff" opacity="0.14"/>
+  <g filter="url(#shadow)"><g transform="translate(690 250)"><rect x="0" y="120" width="420" height="210" rx="40" fill="#fff" opacity=".9"/><path d="M40 135 L210 55 L380 135 L210 215 Z" fill="#0b1f4d" opacity=".9"/><path d="M95 175 V260 C170 310 250 310 325 260 V175" fill="#dbeafe"/><rect x="130" y="300" width="160" height="24" rx="12" fill="#b42318"/><circle cx="210" cy="132" r="22" fill="#fff"/></g></g>
+  <g font-family="Inter, Arial, sans-serif">
+    <rect x="70" y="70" width="520" height="150" rx="34" fill="#ffffff" opacity="0.92"/>
+    <text x="110" y="130" font-size="44" font-weight="800" fill="#0b1f4d">Образование</text>
+    <text x="112" y="176" font-size="24" font-weight="600" fill="#667085">возможности для роста</text>
+    <text x="112" y="205" font-size="18" font-weight="700" fill="#b42318">сфера жизни</text>
+  </g>
+</svg>
